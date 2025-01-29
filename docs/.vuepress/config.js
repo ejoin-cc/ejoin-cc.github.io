@@ -4,14 +4,14 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
   lang: 'zh-CN',
-  head: [['link', { rel: 'icon', href: '/images/logo.jpg' }]],
+  head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
 
   title: 'Coding 练级宝典',
   keywords: ['编程指南','C 语言'],
 
   theme: defaultTheme({
-    hostname: 'https://ejoin.cc',
-    logo: '/images/logo.jpg',
+    hostname: 'https://coding.ejoin.cc',
+    logo: '/images/logo.png',
 
     home: '/',
     navbar: [
