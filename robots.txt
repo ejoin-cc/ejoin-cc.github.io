@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://ejoin.cc/sitemap.xml
+Sitemap: https://coding.ejoin.cc/sitemap.xml
