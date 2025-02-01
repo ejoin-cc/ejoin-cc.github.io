@@ -25,6 +25,10 @@ export default defineUserConfig({
         activeMatch: true,
       },
       {
+        text: '分布式系统',
+        link: '/distributed_system/preface.md',
+      },
+      {
         text: '自托管',
         link: '/self_host/introduction.md',
       }
@@ -45,9 +49,17 @@ export default defineUserConfig({
           children: ['beginner.md'],
         }
       ],
+      '/distributed_system': [
+        {
+          text: '概述',
+          collapsible: true,
+          children: ['preface.md', 'introduction.md'],
+        }
+      ],
       '/self_host/': [
         'introduction.md',
         'ddns.md',
+        'nginx.md',
       ],
     },
 
@@ -55,6 +67,9 @@ export default defineUserConfig({
     lastUpdated: true,
     contributors: false,
 
+    lastUpdatedText: '上次更新于',
+    notFound: '页面不存在',
+    backToHome: '返回主页',
     prev: '上一页',
     next: '下一页',
   }),
